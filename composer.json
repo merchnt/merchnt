@@ -1,0 +1,22 @@
+{
+  "name": "merchnt/merchnt",
+  "license": "MIT",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Merchnt\\": "src/Merchnt/",
+      "FastRouteAnnotations\\": "src/FastRouteAnnotations/"
+    },
+    "files": [
+      "helpers.php"
+    ]
+  },
+  "require": {
+    "php": ">=7.0",
+    "mnapoli/php-di": "~5.1.0",
+    "nikic/fast-route": "~0.7.0",
+    "doctrine/cache": "~1.6.0",
+    "doctrine/annotations": "~1.2.7"
+  }
+}
